@@ -119,6 +119,6 @@ If you find WaDi useful, please consider giving our repository a star (⭐) and 
 ## Acknowledgement
 
 This project is based on [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio). Thanks for their awesome works.
-We sincerely acknowledge the excellent and inspiring prior work, [Phantom](https://github.com/Phantom-video/Phantom), [VINO](https://sotamak1r.github.io/VINO-web/), [OpenS2V](https://github.com/PKU-YuanGroup/OpenS2V-Nexus), and [Phantom-Data](https://phantom-video.github.io/Phantom-Data/).
+We sincerely acknowledge the excellent and inspiring prior work, [Phantom](https://github.com/Phantom-video/Phantom), [VINO](https://sotamak1r.github.io/VINO-web/), [OpenS2V](https://github.com/PKU-YuanGroup/OpenS2V-Nexus), [Phantom-Data](https://phantom-video.github.io/Phantom-Data/) and [Wan2.1](https://wan.video/).
 ## Contact
 If you have any questions, please feel free to reach out to me at  `scitop1998@gmail.com`. 
