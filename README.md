@@ -54,6 +54,25 @@ pushing mismatched (cross-subject) pairs apart, improving reference-consistent g
 <img src="./asserts/results-tab-ref.png" alt="origin" style="width: 90%;margin-right: 20px;" /> 
 </p>
 
+## 🏆 OpenS2V-Eval Leaderboard
+
+> RefAlign achieves **state-of-the-art performance** on [OpenS2V-Eval](https://huggingface.co/spaces/BestWishYsh/OpenS2V-Eval) across multiple metrics.
+
+| Model | Venue | TotalScore ↑ | Aesthetic ↑ | MotionSmoothness ↑ | MotionAmplitude ↑ | FaceSim ↑ | GmeScore ↑ | NexusScore ↑ | NaturalScore ↑ |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 🥇 **RefAlign-14B (Ours)** | Open-Source | **60.42%** | 46.84% | **97.61%** | 22.48% | **55.23%** | 68.32% | **48.52%** | 73.63% |
+| 🥇 **RefAlign-1.3B (Ours)** | Open-Source | **56.30%** | 42.96% | 94.74% | 20.74% | 53.06% | 66.85% | 43.97% | 66.25% |
+| Saber | Closed-Source | 57.91% | 42.42% | 96.12% | 21.12% | 49.89% | 67.50% | 47.22% | 72.55% |
+| VINO | Open-Source | 57.85% | 45.92% | 94.73% | 12.30% | 52.00% | 69.69% | 42.67% | 71.99% |
+| BindWeave | Closed-Source | 57.61% | 45.55% | 95.90% | 13.91% | 53.71% | 67.79% | 46.84% | 66.85% |
+| VACE-14B | Open-Source | 57.55% | **47.21%** | 94.97% | 15.02% | 55.09% | 67.27% | 44.08% | 67.04% |
+| Phantom-14B | Open-Source | 56.77% | 46.39% | 96.31% | **33.42%** | 51.46% | **70.65%** | 37.43% | 69.35% |
+| Kling1.6 | Closed-Source | 56.23% | 44.59% | 86.93% | **41.60%** | 40.10% | 66.20% | 45.89% | **74.59%** |
+| Phantom-1.3B | Open-Source | 54.89% | 46.67% | 93.30% | 14.29% | 48.56% | 69.43% | 42.48% | 62.50% |
+| MAGREF-480P | Open-Source | 52.51% | 45.02% | 93.17% | 21.81% | 30.83% | 70.47% | 43.04% | 66.90% |
+| SkyReels-A2-P14B | Open-Source | 52.25% | 39.41% | 87.93% | 25.60% | 45.95% | 64.54% | 43.75% | 60.32% |
+| Vidu2.0 | Closed-Source | 51.95% | 41.48% | 90.45% | 13.52% | 35.11% | 67.57% | 43.37% | 65.88% |
+
 ## 🏋️  Training
 
 ### 🛠️ Installation
