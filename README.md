@@ -27,7 +27,7 @@ Reference-to-video (R2V) generation is a controllable video synthesis paradigm t
 <img src="./asserts/refalign-method.png" alt="method" />
 
 <div align="center">
-<em>(Left)  (a) Overview of RefAlign. During training, we apply the proposed reference alignment loss
+<em>(a) Overview of RefAlign. During training, we apply the proposed reference alignment loss
 LRA to intermediate features in selected DiT blocks and align them to target features extracted by a
 frozen vision foundation model (VFM). During inference, we discard the alignment process and the
 VFM. (b) Illustration of the reference alignment (RA) loss. RA loss aligns DiT reference features
