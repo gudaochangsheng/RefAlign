@@ -82,6 +82,13 @@ sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-14B_stage1.sh
 sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-14B_stage2.sh
   ```
 
+## Model Weights
+
+| Model | Params | Hugging Face | ModelScope |
+|---|---:|---|---|
+| RefAlign-1.3B | 1.3B | [![HF Download](https://img.shields.io/badge/HuggingFace-Download-yellow?logo=huggingface)](https://huggingface.co/gudaochangsheng/RefAlign-1.3B) | [![MS Download](https://img.shields.io/badge/ModelScope-Download-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-1.3B) |
+| RefAlign-14B | 14B | [![HF Download](https://img.shields.io/badge/HuggingFace-Download-yellow?logo=huggingface)](https://huggingface.co/gudaochangsheng/RefAlign-14B) | [![MS Download](https://img.shields.io/badge/ModelScope-Download-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-14B) |
+
 ## Inference
 
 checkpoints
