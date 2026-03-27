@@ -54,11 +54,45 @@ pushing mismatched (cross-subject) pairs apart, improving reference-consistent g
 ## Training
 
 ### Installation
+```shell
+# git clone this repository
+https://github.com/gudaochangsheng/RefAlign.git
+cd RefAlign
 
-coming soon....
+# create new anaconda env
+conda create -n refalign python=3.8 -y
+conda activate refalign
+
+# install python dependencies
+pip3 install -r requirements.txt
+  ```
+
+### train
+```shell
+# Train RefAlign in stage1 (OpenS2V)
+sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-1.3B_stage1.sh
+
+# Train RefAlign in stage2 (Phantom-Data)
+sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-1.3B_stage2.sh
+
+# Train RefAlign in stage1 (OpenS2V)
+sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-14B_stage1.sh
+
+# Train RefAlign in stage2 (Phantom-Data)
+sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-14B_stage2.sh
+  ```
 
 ## Inference
-coming soon....
+
+checkpoints
+
+```shell
+# Inference RefAlign-1.3B
+python examples/wanvideo/model_inference/Wan2.1-T2V-1.3B_subject.py
+
+# Inference RefAlign-14B
+python examples/wanvideo/model_inference/Wan2.1-T2V-14B_subject.py
+  ```
 ## Citation
 
 If you find WaDi useful, please consider giving our repository a star (⭐) and citing our [paper](https://arxiv.org/abs/2603.25743).
