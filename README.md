@@ -21,4 +21,33 @@ improving reference separability by pulling same-reference features closer and p
   </em>
 </div>
 
+## 📘 Introduction
+Reference-to-video (R2V) generation is a controllable video synthesis paradigm that constrains the generation process using both text prompts and reference images, enabling applications such as personalized advertising and virtual try-on. In practice, existing R2V methods typically introduce additional high-level semantic or cross-modal features alongside the VAE latent representation of the reference image and jointly feed them into the diffusion Transformer (DiT). These auxiliary representations provide semantic guidance and act as implicit alignment signals, which can partially alleviate pixel-level information leakage in the VAE latent space. However, they may still struggle to address copy--paste artifacts and multi-subject confusion caused by modality mismatch across heterogeneous encoder features. In this paper, we propose RefAlign, a representation alignment framework that explicitly aligns DiT reference-branch features to the semantic space of a visual foundation model (VFM). The core of RefAlign is a reference alignment loss that pulls the reference features and VFM features of the same subject closer to improve identity consistency, while pushing apart the corresponding features of different subjects to enhance semantic discriminability. This simple yet effective strategy is applied only during training, incurring no inference-time overhead, and achieves a better balance between text controllability and reference fidelity. Extensive experiments on the OpenS2V-Eval benchmark demonstrate that RefAlign outperforms current state-of-the-art methods in TotalScore, validating the effectiveness of explicit reference alignment for R2V tasks.
+
+<img src="./asserts/refalign-method.png" alt="method" />
+
+<div align="center">
+<em>(Left)  (a) Overview of RefAlign. During training, we apply the proposed reference alignment loss
+LRA to intermediate features in selected DiT blocks and align them to target features extracted by a
+frozen vision foundation model (VFM). During inference, we discard the alignment process and the
+VFM. (b) Illustration of the reference alignment (RA) loss. RA loss aligns DiT reference features
+to their corresponding VFM teacher features by pulling matched (same-subject) pairs together and
+pushing mismatched (cross-subject) pairs apart, improving reference-consistent generation.
+  </em>
+</div>
+
+## ✨ Qualitative results
+
+<div align="center">
+    <b>
+            Quality results compared to other methods.
+    </b>
+</div>
+<img src="./asserts/results-vis-ref.png" alt="sd-ddim50" />
+
+## 📈  Quantitative results
+<p align="center">
+<img src="./asserts/results-tab-ref.png" alt="origin" style="width: 90%;margin-right: 20px;" /> 
+</p>
+
 coming soon....
