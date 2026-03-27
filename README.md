@@ -72,4 +72,3 @@ This project is based on [DiffSynth-Studio](https://github.com/modelscope/DiffSy
 We sincerely acknowledge the excellent and inspiring prior work, [Phantom](https://github.com/Phantom-video/Phantom), [VINO](https://sotamak1r.github.io/VINO-web/), [OpenS2V](https://github.com/PKU-YuanGroup/OpenS2V-Nexus), and [Phantom-Data](https://phantom-video.github.io/Phantom-Data/).
 ## Contact
 If you have any questions, please feel free to reach out to me at  `scitop1998@gmail.com`. 
->>>>>>> 250ef589f9960568f64cc7c3ad04b154366435f0
