@@ -51,9 +51,9 @@ pushing mismatched (cross-subject) pairs apart, improving reference-consistent g
 <img src="./asserts/results-tab-ref.png" alt="origin" style="width: 90%;margin-right: 20px;" /> 
 </p>
 
-## Training
+## 🏋️  Training
 
-### Installation
+### 🛠️ Installation
 ```shell
 # git clone this repository
 https://github.com/gudaochangsheng/RefAlign.git
@@ -67,7 +67,7 @@ conda activate refalign
 pip3 install -r requirements.txt
   ```
 
-### train
+### 🎯 train
 ```shell
 # Train RefAlign in stage1 (OpenS2V)
 sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-1.3B_stage1.sh
@@ -82,14 +82,14 @@ sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-14B_stage1.sh
 sh ./examples/wanvideo/model_training/full/Wan2.1-T2V-14B_stage2.sh
   ```
 
-## Model Weights
+## 📦 Model Weights
 
 | Model | Params | Hugging Face | ModelScope |
 |---|---:|---|---|
 | RefAlign-1.3B | 1.3B | [![HF Download](https://img.shields.io/badge/HuggingFace-Download-yellow?logo=huggingface)](https://huggingface.co/gudaochangsheng/RefAlign-1.3B) | [![MS Download](https://img.shields.io/badge/ModelScope-Download-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-1.3B) |
 | RefAlign-14B | 14B | [![HF Download](https://img.shields.io/badge/HuggingFace-Download-yellow?logo=huggingface)](https://huggingface.co/gudaochangsheng/RefAlign-14B) | [![MS Download](https://img.shields.io/badge/ModelScope-Download-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-14B) |
 
-## Inference
+## 🎬 Inference
 
 checkpoints
 
