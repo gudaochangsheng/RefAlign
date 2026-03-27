@@ -1,0 +1,19 @@
+compute_environment: LOCAL_MACHINE
+debug: false
+distributed_type: DEEPSPEED
+downcast_bf16: 'no'
+mixed_precision: bf16
+use_cpu: false
+# ---------------- DeepSpeed 配置 ----------------
+deepspeed_config:
+  gradient_accumulation_steps: 1
+  offload_optimizer_device: none
+  offload_param_device: none
+  zero3_init_flag: false
+  zero_stage: 2
+  zero_optimization:
+    stage: 2
+    overlap_comm: true
+    contiguous_gradients: false
+    reduce_bucket_size: 25000000
+    allgather_bucket_size: 25000000

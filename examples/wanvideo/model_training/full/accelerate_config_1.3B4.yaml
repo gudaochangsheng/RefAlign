@@ -1,0 +1,32 @@
+compute_environment: LOCAL_MACHINE
+debug: false
+deepspeed_config:
+  gradient_accumulation_steps: 1
+  offload_optimizer_device: none
+  offload_param_device: none
+  zero3_init_flag: false
+  zero_stage: 2
+  zero_optimization:
+    stage: 2
+    overlap_comm: true                   # 通信与计算重叠，梯度不积压
+    contiguous_gradients: false          # 关闭连续梯度缓冲，降低大块峰值
+    reduce_bucket_size: 25000000         # 每桶元素数（≈50MB @ bf16）；之前看有 4.9e8 的超大桶
+    allgather_bucket_size: 25000000 
+distributed_type: DEEPSPEED
+downcast_bf16: 'no'
+enable_cpu_affinity: false
+machine_rank: 3            # ★ 这台机器是 0
+main_training_function: main
+mixed_precision: bf16
+num_machines: 4            # ★ 机器总数
+num_processes: 32          # ★ 进程总数 = 机器数 × 每机 GPU 数 (2×8)
+rdzv_backend: static
+same_network: false
+main_process_ip: 10.67.179.15  # ★ rank0 的内网 IP（所有机器一致）
+main_process_port: 29968   # ★ 端口（所有机器一致）
+tpu_env: []
+tpu_use_cluster: false
+tpu_use_sudo: false
+use_cpu: false
+
+# 10.54.130.90
