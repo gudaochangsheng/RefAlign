@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./asserts/refalign-logo.png" alt="demo" style="width: 10%;" />
+<img src="./asserts/refalign-logo.png" alt="demo" style="width: 50%;" />
   <br>
 </div>
 
