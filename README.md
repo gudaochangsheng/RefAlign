@@ -1,4 +1,7 @@
-
+<div align="center">
+<img src="./asserts/refalign-logo.png" alt="demo" style="width: 10%;" />
+  <br>
+</div>
 # 🚀 RefAlign: Representation Alignment for Reference-to-Video Generation
 
 [![arXiv](https://img.shields.io/badge/arXiv-RefAlign-<COLOR>.svg)](https://arxiv.org/abs/2603.25743) [![arXiv](https://img.shields.io/badge/paper-RefAlign-b31b1b.svg)](https://arxiv.org/pdf/2603.25743) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=gudaochangsheng/RefAlign) [![HF-1.3B](https://img.shields.io/badge/HF-RefAlign--1.3B-yellow?logo=huggingface)](https://huggingface.co/gudaochangsheng/RefAlign-1.3B)
