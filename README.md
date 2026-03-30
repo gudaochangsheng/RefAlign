@@ -10,6 +10,7 @@
 [![MS-1.3B](https://img.shields.io/badge/ModelScope-RefAlign--1.3B-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-1.3B)
 [![MS-14B](https://img.shields.io/badge/ModelScope-RefAlign--14B-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-14B)
 [![Code](https://img.shields.io/badge/Code-RefAlign-black?style=for-the-badge&logo=github)](https://github.com/gudaochangsheng/RefAlign)
+[![Project Page](https://img.shields.io/badge/Project-Page-2ea44f?style=flat-square)](https://gudaochangsheng.github.io/RefAlign-Page/)
 
 <div align="center">
   <a href="https://gudaochangsheng.github.io/">Lei Wang</a><sup>1,2,*,&ddagger;</sup>,
