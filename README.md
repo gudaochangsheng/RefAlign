@@ -8,9 +8,33 @@
 [![Code](https://img.shields.io/badge/Code-RefAlign-black?style=for-the-badge&logo=github)](https://github.com/gudaochangsheng/RefAlign)
 
 <div align="center">
+  <a href="https://gudaochangsheng.github.io/">Lei Wang</a><sup>1,2,*,&ddagger;</sup>,
+  <a href="https://scholar.google.com/citations?hl=zh-TW&user=1uL_9HAAAAAJ">Yuxin Song</a><sup>2,&ddagger;</sup>,
+  <a href="https://github.com/Martinser">Ge Wu</a><sup>1</sup>,
+  <a href="https://scholar.google.com.hk/citations?user=pnuQ5UsAAAAJ&hl=zh-CN&oi=ao">Haocheng Feng</a><sup>2</sup>,
+  <a href="https://hangz-nju-cuhk.github.io/">Hang Zhou</a><sup>2</sup>,
+  <a href="https://jingdongwang2017.github.io/">Jingdong Wang</a><sup>2</sup>
+    <a href="https://yaxingwang.github.io/">Yaxing Wang</a><sup>4&dagger;</sup>
+    <a href="https://scholar.google.com.hk/citations?user=6CIDtZQAAAAJ&hl=en">Jian Yang</a><sup>1,3&dagger;</sup>
+</div>
+
+<div align="center">
+  <sup>1</sup> PCA Lab, VCIP, College of Computer Science, Nankai University &nbsp;&nbsp;
+  <sup>2</sup> Baidu Inc. &nbsp;&nbsp;
+  <sup>3</sup> PCA Lab, School of Intelligence Science and Technology, Nanjing University &nbsp;&nbsp;
+  <sup>4</sup> College of Artificial Intelligence, Jilin University
+</div>
+
+<div align="center">
+  &dagger;Corresponding authors *Interns in Baidu Inc. &ddagger;Equal Contribution
+</div>
+
+<div align="center">
 <img src="asserts/abstract-refalign.png" alt="demo" style="width: 100%;" />
   <br>
 </div>
+
+
 
 ---
 
