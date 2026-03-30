@@ -5,6 +5,7 @@
 [![HF-14B](https://img.shields.io/badge/HF-RefAlign--14B-yellow?logo=huggingface)](https://huggingface.co/gudaochangsheng/RefAlign-14B)
 [![MS-1.3B](https://img.shields.io/badge/ModelScope-RefAlign--1.3B-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-1.3B)
 [![MS-14B](https://img.shields.io/badge/ModelScope-RefAlign--14B-blue)](https://www.modelscope.cn/models/gudaochangsheng98/RefAlign-14B)
+[![Code](https://img.shields.io/badge/Code-RefAlign-black?style=for-the-badge&logo=github)](https://github.com/gudaochangsheng/RefAlign)
 
 <div align="center">
 <img src="asserts/abstract-refalign.png" alt="demo" style="width: 100%;" />
