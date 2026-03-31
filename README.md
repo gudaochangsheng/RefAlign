@@ -46,10 +46,10 @@
 
 | Reference Images | Output Video |
 |---|---|
-| <img src="./assets/ref1-1.jpg" width="120"/> <img src="./assets/ref1-2.jpg" width="120"/> <img src="./assets/ref1-3.jpg" width="120"/> | <a href="./assets/faceobj_1.mp4">faceobj_1.mp4</a> |
-| <img src="./assets/ref2-1.jpg" width="120"/> <img src="./assets/ref2-2.jpg" width="120"/> <img src="./assets/ref2-3.jpg" width="120"/> | <a href="./assets/faceobj_2.mp4">faceobj_2.mp4</a> |
-| <img src="./assets/ref3-1.jpg" width="120"/> <img src="./assets/ref3-2.jpg" width="120"/> <img src="./assets/ref3-3.jpg" width="120"/> | <a href="./assets/ref3.mp4">ref3.mp4</a> |
-| <img src="./assets/ref4-1.png" width="120"/> <img src="./assets/ref4-2.png" width="120"/> <img src="./assets/ref4-3.jpg" width="120"/> | <a href="./assets/ref4.mp4">ref4.mp4</a> |
+| <img src="./asserts/ref1-1.jpg" width="120"/> <img src="./asserts/ref1-2.jpg" width="120"/> <img src="./asserts/ref1-3.jpg" width="120"/> | <a href="./asserts/faceobj_1.mp4">faceobj_1.mp4</a> |
+| <img src="./asserts/ref2-1.jpg" width="120"/> <img src="./asserts/ref2-2.jpg" width="120"/> <img src="./asserts/ref2-3.jpg" width="120"/> | <a href="./asserts/faceobj_2.mp4">faceobj_2.mp4</a> |
+| <img src="./asserts/ref3-1.jpg" width="120"/> <img src="./asserts/ref3-2.jpg" width="120"/> <img src="./asserts/ref3-3.jpg" width="120"/> | <a href="./asserts/ref3.mp4">ref3.mp4</a> |
+| <img src="./asserts/ref4-1.png" width="120"/> <img src="./asserts/ref4-2.png" width="120"/> <img src="./asserts/ref4-3.jpg" width="120"/> | <a href="./asserts/ref4.mp4">ref4.mp4</a> |
 
 ---
 
