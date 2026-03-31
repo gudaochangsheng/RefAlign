@@ -3,6 +3,8 @@
   <br>
 </div>
 
+
+
 # 🚀 RefAlign: Representation Alignment for Reference-to-Video Generation
 
 [![arXiv](https://img.shields.io/badge/arXiv-RefAlign-<COLOR>.svg)](https://arxiv.org/abs/2603.25743) [![arXiv](https://img.shields.io/badge/paper-RefAlign-b31b1b.svg)](https://arxiv.org/pdf/2603.25743) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=gudaochangsheng/RefAlign) [![HF-1.3B](https://img.shields.io/badge/HF-RefAlign--1.3B-yellow?logo=huggingface)](https://huggingface.co/gudaochangsheng/RefAlign-1.3B)
@@ -40,6 +42,14 @@
 </div>
 
 
+## Demo
+
+| Reference Images | Output Video |
+|---|---|
+| <img src="assets/ref1-1.jpg" width="120"/> <img src="assets/ref1-2.jpg" width="120"/> <img src="assets/ref1-3.jpg" width="120"/> | <a href="assets/faceobj_1.mp4">faceobj_1.mp4</a> |
+| <img src="assets/ref2-1.jpg" width="120"/> <img src="assets/ref2-2.jpg" width="120"/> <img src="assets/ref2-3.jpg" width="120"/> | <a href="assets/faceobj_2.mp4">faceobj_2.mp4</a> |
+| <img src="assets/ref3-1.jpg" width="120"/> <img src="assets/ref3-2.jpg" width="120"/> <img src="assets/ref3-3.jpg" width="120"/> | <a href="assets/ref3.mp4">ref3.mp4</a> |
+| <img src="assets/ref4-1.png" width="120"/> <img src="assets/ref4-2.png" width="120"/> <img src="assets/ref4-3.jpg" width="120"/> | <a href="assets/ref4.mp4">ref4.mp4</a> |
 
 ---
 
