@@ -62,20 +62,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-https://github.com/user-attachments/assets/4bf52de6-df07-4215-ac3a-2974b31f93fe
-
-
-
 <div align="center">
 <img src="./asserts/teaser-motivation.png" alt="demo" style="zoom:150%;" />
   <br>
