@@ -156,13 +156,11 @@ python examples/wanvideo/model_inference/Wan2.1-T2V-14B_subject.py
 If you find WaDi useful, please consider giving our repository a star (⭐) and citing our [paper](https://arxiv.org/abs/2603.25743).
 
 ```
-@misc{wang2026refalign,
+@article{wang2026refalign,
   title={RefAlign: Representation Alignment for Reference-to-Video Generation},
-  author={Lei Wang and Yuxin Song and Ge Wu and Haocheng Feng and Hang Zhou and Jingdong Wang and Yaxing Wang and Jian Yang},
-  year={2026},
-  eprint={2603.25743},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+  author={Wang, Lei and Song, YuXin and Wu, Ge and Feng, Haocheng and Zhou, Hang and Wang, Jingdong and Wang, Yaxing and others},
+  journal={arXiv preprint arXiv:2603.25743},
+  year={2026}
 }
 ```
 ## Acknowledgement
