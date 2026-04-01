@@ -176,7 +176,7 @@ python examples/wanvideo/model_inference/Wan2.1-T2V-14B_subject.py
   ```
 ## Citation
 
-If you find WaDi useful, please consider giving our repository a star (⭐) and citing our [paper](https://arxiv.org/abs/2603.25743).
+If you find RefAlign useful, please consider giving our repository a star (⭐) and citing our [paper](https://arxiv.org/abs/2603.25743).
 
 ```
 @article{wang2026refalign,
