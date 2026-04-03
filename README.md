@@ -3,7 +3,7 @@
   <img src="./asserts/refalign-logo.png" alt="RefAlign logo" width="220" />
 </div>
 
-<h1 align="center">🚀 RefAlign: Reference-to-Video Generation via Representation Alignment</h1>
+<h1 align="center">🚀 RefAlign: Representation Alignment for Reference-to-Video Generation</h1>
 
 <p align="center">
   <b>arXiv 2026</b><br>
