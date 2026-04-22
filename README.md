@@ -5,6 +5,8 @@
 
 <h1 align="center">🚀 RefAlign: Representation Alignment for Reference-to-Video Generation</h1>
 
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.  </h2>
+
 <p align="center">
   <b>arXiv 2026</b><br>
   A training-time alignment framework for improving <b>reference fidelity</b>, <b>identity consistency</b>, and <b>text controllability</b> in reference-to-video generation.
