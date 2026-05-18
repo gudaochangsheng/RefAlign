@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="asserts/RefAlign-star.png" alt="WaDi Star History" width="80%">
+</p>
 
 <div align="center">
   <img src="./asserts/refalign-logo.png" alt="RefAlign logo" width="220" />
