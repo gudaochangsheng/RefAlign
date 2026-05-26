@@ -289,6 +289,4 @@ and [Wan2.1](https://wan.video/).
 
 ## 📮 Contact
 
-If you have any questions, please feel free to contact:
-
-`scitop1998@gmail.com`
+If you have any questions, please feel free to contact: `scitop1998@gmail.com`
