@@ -6,12 +6,12 @@
   <img src="./asserts/refalign-logo.png" alt="RefAlign logo" width="220" />
 </div>
 
-<h1 align="center">🚀 RefAlign: Representation Alignment for Reference-to-Video Generation</h1>
+<h1 align="center">🚀 (ECCV 2026) RefAlign: Representation Alignment for Reference-to-Video Generation</h1>
 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.  </h2>
 
 <p align="center">
-  <b>arXiv 2026</b><br>
+  <b>ECCV 2026</b><br>
   A training-time alignment framework for improving <b>reference fidelity</b>, <b>identity consistency</b>, and <b>text controllability</b> in reference-to-video generation.
 </p>
 
@@ -51,6 +51,13 @@
 <div align="center">
   † Corresponding authors &nbsp;&nbsp; * Interns at Baidu Inc. &nbsp;&nbsp; ‡ Equal contribution
 </div>
+
+---
+
+## 🔥🔥🔥News
+
+ Congratulations to our team! RefAlign has been accepted to ECCV 2026.
+
 
 ---
 
